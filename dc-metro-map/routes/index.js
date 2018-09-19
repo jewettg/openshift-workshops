@@ -9,7 +9,7 @@ var API_KEY_PLACEHOLDER = process.env.WMATA_API_KEY || '2cc419c974f94b5486dd79d6
 var BEERME = process.env.BEERME || false;
 var RAINBOW = process.env.RAINBOW || false;
 console.log("using WMATA API Key - " + API_KEY_PLACEHOLDER);
-if (BEERME == 'true') { console.log("Beer Me! "); }
+if (BEERME == 'true') { console.log("Beer Me Bro! "); }
 if (RAINBOW == 'true') { console.log("Rainbows! "); }
 
 // var DCBEER = {
